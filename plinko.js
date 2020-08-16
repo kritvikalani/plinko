@@ -3,8 +3,8 @@ class Plinko{
         var options= {
             isStatic: true
         }
-        this.body= Bodies.circle(x,y,5, options)
-        this.radius= 5
+        this.body= Bodies.circle(x,y,12, options)
+        this.radius= 12
 
         World.add(world, this.body)
     }
